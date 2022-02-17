@@ -17,6 +17,8 @@ public class Food {
 			System.out.println("eat sandwitch");
 			System.out.println("eat burger");
         }
+
+		// thirsty branch 
         else {
             boolean s = sc.nextBoolean();
             System.out.println("Are you thirsty?");
