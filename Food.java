@@ -17,6 +17,14 @@ public class Food {
 			System.out.println("eat sandwitch");
 			System.out.println("eat burger");
         }
+        else {
+            boolean s = sc.nextBoolean();
+            System.out.println("Are you thirsty?");
+            if(s == true) {
+                System.out.println("Drink water");
+                
+            }
+        }
 	}
 
 }
